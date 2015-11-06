@@ -16,6 +16,10 @@ body{
 	font-size: 42px;
 }
 
+.btn-do{
+	width: 100%;
+}
+
 .main-do .p-do{
     font-size: 28px;
     width: 100%;
