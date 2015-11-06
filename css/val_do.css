@@ -133,7 +133,7 @@
 .p-do{
     font-family: 'Josefin Sans', sans-serif;
     display: inline-block;
-    color: #03588C;
+    color: #434343;
     font-size: 18px;
     margin: 0 0 10px 0;
     padding: 0;
@@ -181,11 +181,11 @@
 }
 
 .col-do-2, .col-do-3{
-	display: inline-block;
-    width: 50%;
-    box-sizing: border-box;
-    margin-left: -4px;
-    padding: 10px 20px;
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	margin-left: -4px;
+	padding: 10px 20px;
 }
 
 .col-do-3{
@@ -197,6 +197,10 @@
 	display: block;
 	font-family: 'Montserrat', sans-serif;
 	color: #000;
+}
+
+.link-do{
+	color: #08aef1;
 }
 
 .uppercase-do{
@@ -264,6 +268,11 @@
 	box-sizing: border-box;
 }
 
+.padd-do{
+	padding: 10px;
+	clear: both;
+}
+
 .sm-label{
     background: #03588C;
     padding: 3px 10px;
@@ -295,6 +304,16 @@
     text-align: center;
     padding: 10px 0;
     box-sizing: border-box;
+}
+
+.wrp-do{
+	clear: both;
+}
+
+.wrp-do::after{
+	clear: both;
+	content: '';
+	display: table;
 }
 
 .input-do{
@@ -391,4 +410,77 @@
 
 .ins-do, .u-do, .del-do, .bold-do, .i-do{
 	color: #000;
+}
+
+.p-do-bleft{
+	border-left: 2px solid #03588C;
+	padding: 0 0 0 10px;
+}
+
+.p-do-bbottom{
+	border-bottom: 2px solid #03588C;
+	padding: 0 0 10px 0;
+}
+
+.p-do-bright{
+	border-right: 2px solid #03588C;
+	padding: 0 10px 0 0;
+}
+
+.ul-do, .ol-do, .dl-do{
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.ul-li{
+}
+
+.table-do{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.tr-do{
+	border-bottom: 1px solid #CBD9E2; 
+}
+
+.th-do, .td-do{
+	padding: 10px;	
+}
+
+.th-do{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+}
+
+.td-do{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.table-do tr:first-child{
+	border-top: 1px solid #CBD9E2;
+}
+
+.table-do tr:nth-child(even){
+	background: #F5F5F5;
+}
+
+.th-brd-do, .td-brd-do{
+	border: 1px solid #CBD9E2;
+}
+
+.table-do tr.active{
+	background: #AEE8FF;
+}
+
+.table-do tr.success{
+	background: #97FF97;
+}
+
+.table-do tr.warning{
+	background: #F5DD85;
+}
+
+.table-do tr.error{
+	background: #FF9E9E;
 }

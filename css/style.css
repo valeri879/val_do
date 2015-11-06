@@ -37,11 +37,11 @@ body{
 
 .section-do{
 	text-align: center;
-	
+
 }
 
 .section-do .h1-do{
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Montserrat', sans-serif;
 }
 
 .col-do-2 img{
@@ -54,7 +54,7 @@ body{
 	background: #fff;
 }
 
-.col-do-3{
+.col-do-3 .txt-center{
 	text-align: center;
 }
 
@@ -87,4 +87,3 @@ body{
     60% {background: #2B2B2B;}
     80% {background: #E94500;}
 }
-
