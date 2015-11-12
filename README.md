@@ -12,3 +12,17 @@ download and insert in your ```<head></head>``` this code
 ```
 
 every selector ends with ```-do``` 
+for example 
+
+```
+.p-do {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    color: #434343;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+```
+
