@@ -25,4 +25,4 @@ for example
 }
 
 ```
-
+if you don't need download your full  ``` css code ``` use inspect element from your browser to get current tag ``` css ```
