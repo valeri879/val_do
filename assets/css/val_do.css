@@ -431,6 +431,7 @@
 
 .input-do:focus{
 	border: 1px solid #03588C;
+	background: #f4f4f4;
 }
 
 .input-do:focus + i{

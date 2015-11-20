@@ -113,6 +113,10 @@ body{
 	box-sizing: border-box;
 }
 
+.sub-ul li:last-child .mn-txt-do{
+	border-bottom: 2px solid #03588C;
+}
+
 .mn-ul-do{
 	padding: 0;
 }
@@ -130,4 +134,8 @@ body{
 	position: fixed;
 	top: 0;
 	right: 0;
+}
+
+.pre{
+	white-space: normal;
 }
