@@ -15,6 +15,7 @@
 			</ul>
 		</li>
 		<li class="mn-li-do"><a class="mn-txt-do" href="#Buttons">Buttons</a></li>
+		<li class="mn-li-do"><a class="mn-txt-do" href="#Grids">Grids</a></li>
 		<li class="mn-li-do"><a class="mn-txt-do" href="#Labels">Labels</a></li>
 	</ul>
 </nav>

@@ -27,14 +27,8 @@ class Admin extends CI_Controller
 
         $result = $this->login->enter($data);
 
-        if($result == true)
-        {
-            echo 'login';
-        }
-        else
-        {
-            echo "error";
-        }
+        if($result == true) echo 'login';
+        else echo "error";
     }
 
 

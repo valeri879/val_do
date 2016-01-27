@@ -6,6 +6,7 @@
 			<?php $this->load->view('includes/doc/components/headings')?>
 			<?php $this->load->view('includes/doc/components/paragraph')?>
 			<?php $this->load->view('includes/doc/components/lists')?>
+			<?php $this->load->view('includes/doc/components/grids')?>
 			<?php $this->load->view('includes/doc/components/buttons')?>
 			<?php $this->load->view('includes/doc/components/tables')?>
 			<?php $this->load->view('includes/doc/components/labels')?>
